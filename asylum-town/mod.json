@@ -4,14 +4,14 @@
 	
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.15",
+	"version" : "2.16",
 	"modType" : "Town",	
 	
     "factions" : [ "config/asylum/town" ],
 	"depends" : ["newtown-terrains.stardustterrain"],  
 	"compatibility" :
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},		
 	"creatures" :
 	[
@@ -74,6 +74,7 @@
 	],
 	"changelog" :
     {
+		"2.16"  : [ "Update to vcmi-1.7 format" ],
 		"2.15"  : [ "New portraits." ],
 		"2.14"  : [ "Fixed russian translation." ],
 		"2.13"  : [ "Fixed Polish translation integrity with original game version by Yoshiro." ],

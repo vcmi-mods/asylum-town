@@ -335,7 +335,7 @@
         "special2": {
           "description": "Crystal of Sorcery increases 10 per cent of sorcery power for each hero.",
           "name": "Crystal of Sorcery",
-		  "bonuses": [{ "type": "SPELL_DAMAGE", "val": 10, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" }  ],
+		  "bonuses": [{ "type": "SPELL_DAMAGE", "val": 10, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" }  ],
           "cost": {
             "crystal": 2,
             "gems": 2,
@@ -378,8 +378,8 @@
 					"mode" : "grail",
 					"produce": { "gold": 5000 },
 					"bonuses": [
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 10 },
-						{ "type": "SPELL_DAMAGE", "val": 30, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" } 						
+						{ "type": "PRIMARY_SKILL", "subtype": "spellpower", "val": 10 },
+						{ "type": "SPELL_DAMAGE", "val": 30, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" } 						
 					]
 				},
 				"dwellingLvl1" :

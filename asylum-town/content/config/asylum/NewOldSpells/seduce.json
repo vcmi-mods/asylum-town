@@ -35,6 +35,8 @@
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute"
 			}
@@ -59,98 +61,48 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 30,
+				"effects":
+				{
+					"undead":
+					{
+						"type": "NOT_ACTIVE",
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
+					},
+					"speed":
+					{
+						"type": "NO_RETALIATION",
+						"val": 0,
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
-	 
-				"cost": 30,
-				"range" : "0-1",
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NOT_ACTIVE",
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					},
-					"speed":
-					{
-						"type": "NO_RETALIATION",
-						"val": 0,
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					}
-				}
+				"description": "{Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep."
 			},
 			"basic":
 			{
-				"description": "{Basic Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
-	 
-				"cost": 30,
-	 
+				"description": "{Basic Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep."
 				"range" : "0-1",
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NOT_ACTIVE",
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					},
-					"speed":
-					{
-						"type": "NO_RETALIATION",
-						"val": 0,
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					}
-				}
 			},
 			"advanced":
 			{
 				"description": "{Advanced Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
-	 
 				"cost": 25,
-				
 				"range" : "0-1",
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NOT_ACTIVE",
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					},
-					"speed":
-					{
-						"type": "NO_RETALIATION",
-						"val": 0,
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					}
-				}
 			},
 			"expert":
 			{
 				"description": "{Expert Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.\n\nRange is larger than basic.\n",
-	 
 				"cost": 25,
-				"range" : "0-2",
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NOT_ACTIVE",
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					},
-					"speed":
-					{
-						"type": "NO_RETALIATION",
-						"val": 0,
-						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
-					}
-				}
+				"range" : "0-2"
 			}
 		}
 	}

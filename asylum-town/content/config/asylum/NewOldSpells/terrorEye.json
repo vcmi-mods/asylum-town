@@ -31,6 +31,8 @@
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
+				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
 				"bonus.UNDEAD" : "absolute"
 			}
@@ -54,76 +56,40 @@
 		{
 			"base":
 			{
+				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,	 
+				"effects":
+				{
+					"undead":
+					{
+						"type": "NO_RETALIATION",
+						"duration": "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NO_RETALIATION",
-						"duration": "N_TURNS"
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NO_RETALIATION",
-						"duration": "N_TURNS"
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-	 
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NO_RETALIATION",
-						"duration": "N_TURNS"
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-				"range": "X",
-	 
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NO_RETALIATION",
-						"duration": "N_TURNS"
-					}
-				}
+				"range": "X"
 			}
 		}
 	}
- 
 }
