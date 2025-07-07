@@ -89,7 +89,7 @@
 			},
 			"basic":
 			{
-				"description": "{Basic Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep."
+				"description": "{Basic Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
 				"range" : "0-1",
 			},
 			"advanced":
