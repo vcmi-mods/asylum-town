@@ -1,108 +1,156 @@
 {
-  "soulcrus": {
-    "name": {
-      "plural": "Soul Crusaders",
-      "singular": "Soul Crusader"
-    },
-    "advMapAmount": {
- "max" : 12,
- "min" : 8
-    },
-    "faction": "asylum",
-    "aiValue": 1208,
-    "attack": 14,
-    "cost": {
-      "gold": 580
-    },
-    "damage": {
- "max" : 17,
- "min" : 13
-    },
-    "defense": 14,
-    "fightValue": 1117,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST5U.def",
-      "map": "asylum/map/creatures/AVWC186.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS186Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL186Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 3,
-    "hitPoints": 45,
-    "level": 5,
-    "sound": {
-      "attack": "asylum/CPU5ATTK.wav",
-      "defend": "asylum/CPU5DFND.wav",
-      "killed": "asylum/CPU5KILL.wav",
-      "move": "asylum/CPU5MOVE.wav",
-      "wince": "asylum/CPU5WNCE.wav"
-    },
-    "speed": 8,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind": {
-        "type": "MIND_IMMUNITY"
-      },
-      "Spirit": {
-        "type": "GENERAL_DAMAGE_REDUCTION",
-        "val": 30,
-		"subtype" : "damageTypeAll"
-      },
-      "deathStrike" :
-			{
+	"soulcrus" : {
+		"name" : {
+			"plural" : "Soul Crusaders",
+			"singular" : "Soul Crusader"
+		},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "asylum",
+		"aiValue" : 1208,
+		"attack" : 14,
+		"cost" : {
+			"gold" : 580
+		},
+		"damage" : {
+			"max" : 17,
+			"min" : 13
+		},
+		"defense" : 14,
+		"fightValue" : 1117,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST5U.def",
+			"map" : "asylum/map/creatures/AVWC186.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS186Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL186Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 3,
+		"hitPoints" : 45,
+		"level" : 5,
+		"sound" : {
+			"attack" : "asylum/CPU5ATTK.wav",
+			"defend" : "asylum/CPU5DFND.wav",
+			"killed" : "asylum/CPU5KILL.wav",
+			"move" : "asylum/CPU5MOVE.wav",
+			"wince" : "asylum/CPU5WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"Spirit" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"val" : 30,
+				"subtype" : "damageTypeAll"
+			},
+			"deathStrike" : {
 				"type" : "DOUBLE_DAMAGE_CHANCE",
 				"val" : 50
 			}
-    },
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-  }	
 	}
+}

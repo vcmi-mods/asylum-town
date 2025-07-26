@@ -1,36 +1,30 @@
 {
-	"k_viola" :
-	{
-    "class": "mentalist",
-    "female" : true,
-		
-		"texts" :
-		{
+	"k_viola" : {
+		"class" : "mentalist",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Viola",
 			"biography" : "Viola might be beautiful and charming, but no one dares to be a persuer of her. Almost anyone knows she has the ability of hypnotize, her voice might be a powerful weapon if someone becomes her opposite. ",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Spell bonus: Hypnotize",
 				"name" : "Hypnotize"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/viola/UN32T206.bmp",
 			"specialtyLarge" : "asylum/heroes/viola/UN44T206.bmp",
 			"large" : "asylum/heroes/viola/HPL002MN.bmp",
 			"small" : "asylum/heroes/viola/HPS002MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"hypnotize"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +51,7 @@
 				"skill" : "logistics"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"hypnotize" : {
@@ -71,4 +64,3 @@
 		}
 	}
 }
-

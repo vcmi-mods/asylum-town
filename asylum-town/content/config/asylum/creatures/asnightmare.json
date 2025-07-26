@@ -1,152 +1,254 @@
 {
-  "asnightmare": {
-    "name": {
-      "plural": "Nightmares",
-      "singular": "Nightmare"
-    },
-    "advMapAmount": {
- "max" : 12,
- "min" : 5
-    },
-    "faction": "asylum",
-    "aiValue": 1438,
-    "attack": 16,
-    "cost": {
-      "gold": 1000
-    },
-    "damage": {
- "max" : 19,
- "min" : 15
-    },
-    "defense": 17,
-    "fightValue": 1255,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST6.def",
-      "map": "asylum/map/creatures/AVWC187.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS187Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL187Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "doubleWide": true,
-    "growth": 2,
-    "hitPoints": 80,
-    "level": 6,
-    "upgrades": [
-      "shadowmare"
-    ],
-    "sound": {
-      "attack": "asylum/CPS6ATTK.wav",
-      "defend": "asylum/CPS6DFND.wav",
-      "killed": "asylum/CPS6KILL.wav",
-      "move": "asylum/CPS6MOVE.wav",
-      "wince": "asylum/CPS6WNCE.wav"
-    },
-    "speed": 8,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind": {
-        "type": "MIND_IMMUNITY"
-      }
-    },
-		"stackExperience" :
- 
-		[
+	"asnightmare" : {
+		"name" : {
+			"plural" : "Nightmares",
+			"singular" : "Nightmare"
+		},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "asylum",
+		"aiValue" : 1438,
+		"attack" : 16,
+		"cost" : {
+			"gold" : 1000
+		},
+		"damage" : {
+			"max" : 19,
+			"min" : 15
+		},
+		"defense" : 17,
+		"fightValue" : 1255,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST6.def",
+			"map" : "asylum/map/creatures/AVWC187.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS187Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL187Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"upgrades" : [
+			"shadowmare"
+		],
+		"sound" : {
+			"attack" : "asylum/CPS6ATTK.wav",
+			"defend" : "asylum/CPS6DFND.wav",
+			"killed" : "asylum/CPS6KILL.wav",
+			"move" : "asylum/CPS6MOVE.wav",
+			"wince" : "asylum/CPS6WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" : 
-				{ 
-					"subtype" : "deathStareGorgon", 
-					"type" : "DEATH_STARE" 
+				"bonus" : {
+					"subtype" : "deathStareGorgon",
+					"type" : "DEATH_STARE"
 				},
-				"values" : [ 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 ]
+				"values" : [
+					12,
+					14,
+					16,
+					18,
+					20,
+					22,
+					24,
+					26,
+					28,
+					30
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FEARFUL",
 					"val" : 10,
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"description" : "PLACEHOLDER",
-					"limiters" : [ 
-						"OPPOSITE_SIDE", 
+					"limiters" : [
+						"OPPOSITE_SIDE",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"parameters" : [ "LIVING" ]
+							"parameters" : [
+								"LIVING"
+							]
 						}
 					]
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
-					
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "spell.deathRipple",
-					"addInfo" : [1, 1]
+					"addInfo" : [
+						1,
+						1
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

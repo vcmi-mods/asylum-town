@@ -1,32 +1,26 @@
 {
-	"a_alach" :
-	{
-    "class": "pathfinder",
-    "female" : false,
-		
-		"texts" :
-		{
+	"a_alach" : {
+		"class" : "pathfinder",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Alach",
 			"biography" : "As a mental strengthed warrior, Alach is cruel and merciless to any opposites. He never takes off his mental mask since he had joined the Asylum.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Secondary skill bonus: Offence",
 				"name" : "Offence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/alach/UN32T196.bmp",
 			"specialtyLarge" : "asylum/heroes/alach/UN44T196.bmp",
 			"large" : "asylum/heroes/alach/HPL000PF.png",
 			"small" : "asylum/heroes/alach/HPS000PF.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "resistance"
@@ -54,10 +47,9 @@
 				"skill" : "offence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "offence"
 		}
 	}
 }
-

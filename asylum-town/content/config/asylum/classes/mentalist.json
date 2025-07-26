@@ -1,44 +1,70 @@
 {
 	"mentalist" : {
 		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "asylum/battle/heroes/CH23", "male" : "asylum/battle/heroes/MageMA" } },
-    "defaultTavern": 5,
-    "commander": "acommander",//no commander here
+		"animation" : {
+			"battle" : {
+				"female" : "asylum/battle/heroes/CH23",
+				"male" : "asylum/battle/heroes/MageMA"
+			}
+		},
+		"defaultTavern" : 5,
+		"commander" : "acommander", //no commander here
 		"faction" : "asylum",
-		"highLevelChance" : { "attack" : 20, "defence" : 15, "knowledge" : 35, "spellpower" : 30 },
-		"lowLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
-		"mapObject" : { "templates" : { "default" : { "animation" : "asylum/map/heroes/AH23_" } } },
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 15,
+			"knowledge" : 35,
+			"spellpower" : 30
+		},
+		"lowLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"knowledge" : 30,
+			"spellpower" : 30
+		},
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "asylum/map/heroes/AH23_"
+				}
+			}
+		},
 		"name" : "Mentalist",
-		"primarySkills" : { "attack" : 0, "defence" : 1, "knowledge" : 2, "spellpower" : 3 },
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"knowledge" : 2,
+			"spellpower" : 3
+		},
 		"secondarySkills" : {
-			"pathfinding"  : 2,
-			"archery"      : 3,
-			"logistics"    : 4,
-			"scouting"     : 3,
-			"diplomacy"    : 7,
-			"navigation"   : 5,
-			"leadership"   : 2,
-			"wisdom"       : 7,
-			"mysticism"    : 4,
-			"luck"         : 5,
-			"ballistics"   : 4,
-			"eagleEye"     : 6,
-			"necromancy"   : 0,
-			"estates"      : 3,
-			"fireMagic"    : 2,
-			"airMagic"     : 4,
-			"waterMagic"   : 4,
-			"earthMagic"   : 3,
-			"scholar"      : 6,
-			"tactics"      : 2,
-			"artillery"    : 2,
-			"learning"     : 4,
-			"offence"      : 4,
-			"armorer"      : 3,
+			"pathfinding" : 2,
+			"archery" : 3,
+			"logistics" : 4,
+			"scouting" : 3,
+			"diplomacy" : 7,
+			"navigation" : 5,
+			"leadership" : 2,
+			"wisdom" : 7,
+			"mysticism" : 4,
+			"luck" : 5,
+			"ballistics" : 4,
+			"eagleEye" : 6,
+			"necromancy" : 0,
+			"estates" : 3,
+			"fireMagic" : 2,
+			"airMagic" : 4,
+			"waterMagic" : 4,
+			"earthMagic" : 3,
+			"scholar" : 6,
+			"tactics" : 2,
+			"artillery" : 2,
+			"learning" : 4,
+			"offence" : 4,
+			"armorer" : 3,
 			"intelligence" : 6,
-			"sorcery"      : 5,
-			"resistance"   : 2,
-			"firstAid"     : 10
+			"sorcery" : 5,
+			"resistance" : 2,
+			"firstAid" : 10
 		},
 		"tavern" : {
 			"castle" : 2,

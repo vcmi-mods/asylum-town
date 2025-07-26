@@ -1,25 +1,30 @@
 {
-// "special" heroes for new towns
-	"core:gelu":
-	{
+	// "special" heroes for new towns
+	"core:gelu" : {
 		"specialty" : {
 			"base" : {
 				"addInfo" : "creature.sharpshooter",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"shadowhunter2sharpshooter" : { "subtype" : "creature.shadowhunter" },
-				"phantomhunter2sharpshooter" : { "subtype" : "creature.phantomhunter" },
+				"shadowhunter2sharpshooter" : {
+					"subtype" : "creature.shadowhunter"
+				},
+				"phantomhunter2sharpshooter" : {
+					"subtype" : "creature.phantomhunter"
+				}
 			}
-		},
+		}
 	},
-	"core:ivor":
-	{
+	"core:ivor" : {
 		"specialty" : {
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "shadowhunter", true ],
+						"parameters" : [
+							"shadowhunter",
+							true
+						],
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -30,15 +35,17 @@
 					"val" : 1
 				}
 			}
-		},
+		}
 	},
-	"core:charna":
-	{
+	"core:charna" : {
 		"specialty" : {
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "sadphanton", true ],
+						"parameters" : [
+							"sadphanton",
+							true
+						],
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -49,6 +56,6 @@
 					"val" : 1
 				}
 			}
-		},
+		}
 	}
 }

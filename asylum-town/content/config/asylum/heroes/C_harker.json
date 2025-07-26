@@ -1,32 +1,26 @@
 {
-	"c_harker" :
-	{
-    "class": "pathfinder",
-    "female" : false,
-		
-		"texts" :
-		{
+	"c_harker" : {
+		"class" : "pathfinder",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Harker",
 			"biography" : "Harker used to be a servant of a demon lord. He always be treated mercilessly by his master. Since he had learned the magic of mental domination, finally he controlled his master, and then he makes the cruel demon into his mental cage perpetually.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Dark Squires or Dark Guards by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip" : "Creature bonus: Dark Squires",
 				"name" : "Dark Squires"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/harker/UN32T198.bmp",
 			"specialtyLarge" : "asylum/heroes/harker/UN44T198.bmp",
 			"large" : "asylum/heroes/harker/HPL002PF.bmp",
 			"small" : "asylum/heroes/harker/HPS002PF.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 20,
@@ -43,8 +37,7 @@
 				"min" : 15
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -54,10 +47,9 @@
 				"skill" : "pathfinding"
 			}
 		],
-		
-				"specialty" : {
+
+		"specialty" : {
 			"creature" : "darksquire"
 		}
 	}
 }
-

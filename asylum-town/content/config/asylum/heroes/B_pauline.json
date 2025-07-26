@@ -1,32 +1,26 @@
 {
-	"b_pauline" :
-	{
-    "class": "pathfinder",
-    "female" : true,
-		
-		"texts" :
-		{
+	"b_pauline" : {
+		"class" : "pathfinder",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Pauline",
 			"biography" : "Pauline's long purplr hair and a pair of amethyst eyes are the symbol of a noble girl. However, Pauline prefer to learning archery instead of being a nobility. The amethyst girl used to live in Bracada, she started to go to the enigma place and search for her own livelihood after she had felt psychic power.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Shadow Hunters or Phantom Hunters by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
 				"tooltip" : "Creature bonus: Shadow Hunter",
 				"name" : "Shadow Hunters"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/pauline/UN32T197.bmp",
 			"specialtyLarge" : "asylum/heroes/pauline/UN44T197.bmp",
 			"large" : "asylum/heroes/pauline/HPL001PF.bmp",
 			"small" : "asylum/heroes/pauline/HPS001PF.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -54,10 +47,9 @@
 				"skill" : "archery"
 			}
 		],
-		
-				"specialty" : {
+
+		"specialty" : {
 			"creature" : "shadowhunter"
 		}
 	}
 }
-

@@ -1,32 +1,26 @@
 {
-	"e_renner" :
-	{
-    "class": "pathfinder",
-    "female" : false,
-		
-		"texts" :
-		{
+	"e_renner" : {
+		"class" : "pathfinder",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Renner",
 			"biography" : "No one knows how a necromancer came to the Asylum, but undead hero is also acceptable here. Renner might be a sepctre who is abandoned by Deyja, he must have the purpose while he chosed the Asylum.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Apparitions or Will-o'-the-Wisps by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature bonus: Apparitions",
 				"name" : "Apparitions"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/renner/UN32T200.bmp",
 			"specialtyLarge" : "asylum/heroes/renner/UN44T200.bmp",
 			"large" : "asylum/heroes/renner/HPL004PF.bmp",
 			"small" : "asylum/heroes/renner/HPS004PF.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
@@ -54,10 +47,9 @@
 				"skill" : "necromancy"
 			}
 		],
-		
-			"specialty" : {
+
+		"specialty" : {
 			"creature" : "sadphanton"
 		}
 	}
 }
-

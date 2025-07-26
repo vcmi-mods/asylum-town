@@ -1,50 +1,41 @@
 {
-	"acommander":
-	{
-		"name" :
-		{
+	"acommander" : {
+		"name" : {
 			"plural" : "Demons of Dream",
 			"singular" : "Demon of Dream"
 		},
-		"advMapAmount" :
-		{
-			 "min" : 16,
-			 "max" : 25
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
 		},
 		"special" : true,
 		"faction" : "asylum",
 		"aiValue" : 156,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "asylum/battle/creatures/acommander.def",
-//			"map" : "asylum/map/creatures/mapacommander.def",
+			//			"map" : "asylum/map/creatures/mapacommander.def",
 			"iconSmall" : "asylum/iconsSmall/creatures/acommander.bmp",
 			"iconLarge" : "asylum/iconsBig/creatures/acommander.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			},
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "asylum/battle/creatures/projectile/shot247.def",
 				"attackClimaxFrame" : 6,
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 42,
 					"lowerY" : -83,
 					"middleX" : 42,
@@ -52,53 +43,58 @@
 					"upperX" : 42,
 					"upperY" : -83
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
-
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"growth" : 9,
-		"hasDoubleWeek": false,
+		"hasDoubleWeek" : false,
 		"hitPoints" : 40,
 		"level" : 0,
 		"shots" : 24,
-		"sound" :
-		{
-			"attack": "MGELATTK.wav",
-			"defend": "MGELDFND.wav",
-			"killed": "MGELKILL.wav",
-			"move": "MGELMOVE.wav",
-			"shoot": "STORSHOT.wav",
-			"wince": "MGELWNCE.wav"
+		"sound" : {
+			"attack" : "MGELATTK.wav",
+			"defend" : "MGELDFND.wav",
+			"killed" : "MGELKILL.wav",
+			"move" : "MGELMOVE.wav",
+			"shoot" : "STORSHOT.wav",
+			"wince" : "MGELWNCE.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-		    "magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bloodlust",
 				"val" : 3
 			}
-	    }
+		}
 	}
 }

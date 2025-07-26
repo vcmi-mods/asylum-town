@@ -1,113 +1,162 @@
 {
-  "voidwalker": {
-    "name": {
-      "plural": "Voidwalkers",
-      "singular": "Voidwalker"
-    },
-    "advMapAmount": {
- "max" : 8,
- "min" : 3
-    },
-    "faction": "asylum",
-    "aiValue": 6835,
-    "attack": 24,
-    "cost": {
-      "gold": 4200,
-      "crystal": 3
-    },
-    "damage": {
- "max" : 50,
- "min" : 35
-    },
-    "defense": 25,
-    "fightValue": 5505,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST7U.def",
-      "map": "asylum/map/creatures/AVWC190.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS190Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL190Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "doubleWide": true,
-    "growth": 1,
-    "hitPoints": 180,
-    "level": 7,
-    "sound": {
-      "attack": "asylum/CPU7ATTK.wav",
-      "defend": "asylum/CPU7DFND.wav",
-      "killed": "asylum/CPU7KILL.wav",
-      "move": "asylum/CPU7MOVE.wav",
-      "wince": "asylum/CPU7WNCE.wav",
-      "startMoving": "asylum/CPU7EXT1.wav",
-      "endMoving": "asylum/CPU7EXT2.wav"
-    },
-    "speed": 16,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind": {
-        "type": "MIND_IMMUNITY"
-      },
-      "FLYING_ARMY": {
-        "type": "FLYING",
-        "subtype": "movementTeleporting"
-      },
-      "blockRetaliation": {
-        "type": "BLOCKS_RETALIATION"
-      },
-      "drainsLife": {
-        "type": "LIFE_DRAIN",
-        "val": 50
-      }
-    },
-		"stackExperience" :
-		[
+	"voidwalker" : {
+		"name" : {
+			"plural" : "Voidwalkers",
+			"singular" : "Voidwalker"
+		},
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "asylum",
+		"aiValue" : 6835,
+		"attack" : 24,
+		"cost" : {
+			"gold" : 4200,
+			"crystal" : 3
+		},
+		"damage" : {
+			"max" : 50,
+			"min" : 35
+		},
+		"defense" : 25,
+		"fightValue" : 5505,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST7U.def",
+			"map" : "asylum/map/creatures/AVWC190.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS190Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL190Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 180,
+		"level" : 7,
+		"sound" : {
+			"attack" : "asylum/CPU7ATTK.wav",
+			"defend" : "asylum/CPU7DFND.wav",
+			"killed" : "asylum/CPU7KILL.wav",
+			"move" : "asylum/CPU7MOVE.wav",
+			"wince" : "asylum/CPU7WNCE.wav",
+			"startMoving" : "asylum/CPU7EXT1.wav",
+			"endMoving" : "asylum/CPU7EXT2.wav"
+		},
+		"speed" : 16,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"blockRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"drainsLife" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 50
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-  }	
 	}
+}

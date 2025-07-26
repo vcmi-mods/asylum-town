@@ -1,24 +1,20 @@
 {
-	"jesterDeliver":
-	{
-		"name" :
-		{
+	"jesterDeliver" : {
+		"name" : {
 			"plural" : "Jesters",
 			"singular" : "Jester"
 		},
-		"advMapAmount" :
-		{
-			 "min" : 20,
-			 "max" : 50
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
 		},
 		"faction" : "neutral",
 		"level" : 1,
 		"attack" : 2,
 		"defense" : 1,
-		"damage" :
-		{
-			 "min" : 1,
-			 "max" : 1
+		"damage" : {
+			"min" : 1,
+			"max" : 1
 		},
 		"growth" : 16,
 		"hitPoints" : 2,
@@ -26,95 +22,140 @@
 		"doubleWide" : false,
 		"fightValue" : 118,
 		"aiValue" : 116,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 70
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "asylum/battle/creatures/jesterBattle.def",
 			"map" : "asylum/map/creatures/jesterMap.def",
 			"iconSmall" : "asylum/iconsSmall/creatures/jesterIconS.bmp",
 			"iconLarge" : "asylum/iconsBig/creatures/jesterIcon.bmp",
-            "timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
 			}
 		},
-		"sound" :
-		{
-			"attack": "ZELTDFND.wav",
-			"defend": "LCRSDFND.wav",
-			"killed": "ROGUKILL.wav",
-			"move": "ROGUMOVE.wav",
-			"wince": "ROGUWNCE.wav"
-               },
-		"abilities":
-		{
-		      "immuneToMind" : 
-			{
+		"sound" : {
+			"attack" : "ZELTDFND.wav",
+			"defend" : "LCRSDFND.wav",
+			"killed" : "ROGUKILL.wav",
+			"move" : "ROGUMOVE.wav",
+			"wince" : "ROGUWNCE.wav"
+		},
+		"abilities" : {
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			},
-			"nonLiving" : 
-			{ "type" : "GARGOYLE" },
-			"giftStrength" :
-			{
+			"nonLiving" : {
+				"type" : "GARGOYLE"
+			},
+			"giftStrength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "spell.birthdayGift",
 				"val" : 20
 			},
-		"castGiftDelievry" : 
-			{
+			"castGiftDelievry" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.birthdayGift",
 				"val" : 100,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			}
 		},
-		"stackExperience" :
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

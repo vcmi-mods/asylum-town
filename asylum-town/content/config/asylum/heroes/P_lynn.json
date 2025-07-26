@@ -1,36 +1,30 @@
 {
-	"p_Lynn" :
-	{
-    "class": "mentalist",
-    "female" : true,
-		
-		"texts" :
-		{
+	"p_Lynn" : {
+		"class" : "mentalist",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Lynn",
 			"biography" : "Lynn has a sorrow experience since she left her family in a very young age. She found the interest in music and create many melodies with sadness. However, she still hope her sister Renata can meet her again, even if she is not confirmed whether her sister is still alive.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Sorrow with expert effects but not expert range.",
 				"tooltip" : "Spell bonus: Sorrow",
 				"name" : "Sorrow"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/lynn/UN32T211.bmp",
 			"specialtyLarge" : "asylum/heroes/lynn/UN44T211.bmp",
 			"large" : "asylum/heroes/lynn/HPL007MN.bmp",
 			"small" : "asylum/heroes/lynn/HPS007MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"sorrow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,27 +51,22 @@
 				"skill" : "pathfinding"
 			}
 		],
-		
-		"specialty": 
-		{
-			"bonuses":
-			{
-				"choir":
-				{
-					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "sorrow",
+
+		"specialty" : {
+			"bonuses" : {
+				"choir" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "sorrow",
 					"val" : 3,
 					"valueType" : "BASE_NUMBER"
 				},
-				"bind" : 
-				{
-				"subtype" : "sorrow",
-				"type" : "SPELL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
+				"bind" : {
+					"subtype" : "sorrow",
+					"type" : "SPELL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}
 	}
 }
-

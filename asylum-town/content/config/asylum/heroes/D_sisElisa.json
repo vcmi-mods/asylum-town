@@ -1,32 +1,26 @@
 {
-	"d_sisElisa" :
-	{
-    "class": "pathfinder",
-    "female" : true,
-		
-		"texts" :
-		{
+	"d_sisElisa" : {
+		"class" : "pathfinder",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Sister Elisa",
 			"biography" : "As a sacred priest, Sister Elisa used to be a companion of King Roland. After the battle of Ironfist, she started to show her interest in dark power. Now she no longer follows the King Roland and persue a new identification, as an assassin.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Wind Dancers or Shadow Dancers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature bonus: Wind Dancers",
 				"name" : "Wind Dancers"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/sisElisa/UN32T199.bmp",
 			"specialtyLarge" : "asylum/heroes/sisElisa/UN44T199.bmp",
 			"large" : "asylum/heroes/sisElisa/HPL003PF.bmp",
 			"small" : "asylum/heroes/sisElisa/HPS003PF.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 5
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -54,10 +47,9 @@
 				"skill" : "luck"
 			}
 		],
-		
-			"specialty" : {
+
+		"specialty" : {
 			"creature" : "winddancer"
 		}
 	}
 }
-

@@ -1,92 +1,157 @@
-
 {
-    "core:creatureGeneratorCommon" : {
-        "types" : {
-            "asylumLevel1" : {
-                "name" : "Mystical Hut",
-                "creatures" : [[ "darksquire" ]],
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"asylumLevel1" : {
+				"name" : "Mystical Hut",
+				"creatures" : [
+					[
+						"darksquire"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG177",
-                        "mask" : ["VVV","VBV","VBA" ]
-                    }
-                }
-            },
-            "asylumLevel2" : {
-                "name" : "Shadow Arena",
-                "creatures" : [[ "winddancer" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG177",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"asylumLevel2" : {
+				"name" : "Shadow Arena",
+				"creatures" : [
+					[
+						"winddancer"
+					]
+				],
 
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG179",
-                        "mask" : [ "VVV", "VAB" ]
-                    }
-                }
-            },
-            "asylumLevel3" : {
-                "name" : "Psychic Window",
-                "creatures" : [[ "shadowhunter" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG179",
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"asylumLevel3" : {
+				"name" : "Psychic Window",
+				"creatures" : [
+					[
+						"shadowhunter"
+					]
+				],
 
-                "templates" : {
-                    "default" : {   
-                        "animation" : "asylum/map/dwellings/AVG181",
-                        "mask" : ["VVV","VVV","VBA" ]
-                    }
-                }
-            },
-            "asylumLevel4" : {
-                "name" : "Swampy Pit",
-                "creatures" : [[ "sadphanton" ]],
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG183",
-                        "mask" : ["VVV","VVV","VAB" ]
-                    }
-                }
-            },
-            "asylumLevel5" : {
-                "name" : "Order of Spirit",
-                "creatures" : [[ "spiritcrus" ]],
-                "guards" : [
-                    { "amount" : 9, "type" : "spiritcrus" }
-                ],
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG185",
-                        "mask" : [ "VVV","VVV","VAB" ]
-                    }
-                }
-            },
-            "asylumLevel6" : {
-                "name" : "Psychedelic Forest",
-                "creatures" : [[ "asnightmare" ]],
-                "guards" : [
-                    { "amount" : 6, "type" : "asnightmare" }
-                ],
-				"sounds": {
-					"ambient": ["dwellings/asydwl6.wav"]
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG181",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				}
+			},
+			"asylumLevel4" : {
+				"name" : "Swampy Pit",
+				"creatures" : [
+					[
+						"sadphanton"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG183",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"asylumLevel5" : {
+				"name" : "Order of Spirit",
+				"creatures" : [
+					[
+						"spiritcrus"
+					]
+				],
+				"guards" : [
+					{
+						"amount" : 9,
+						"type" : "spiritcrus"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG185",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			},
+			"asylumLevel6" : {
+				"name" : "Psychedelic Forest",
+				"creatures" : [
+					[
+						"asnightmare"
+					]
+				],
+				"guards" : [
+					{
+						"amount" : 6,
+						"type" : "asnightmare"
+					}
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/asydwl6.wav"
+					]
 				},
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG187",
-                        "mask" : ["VVV","VBB","VAB" ]
-                    }
-                }
-            },
-            "asylumLevel7" : {
-                "name" : "Phantom Zone",
-                "creatures" : [[ "plwalker" ]],
-                "guards" : [
-                    { "amount" : 3, "type" : "plwalker" }
-                ],
-                "templates" : {
-                    "default" : {
-                        "animation" : "asylum/map/dwellings/AVG189",
-                        "mask" : ["VVV","VVV","VAB" ]
-                    }
-                }
-            }
-        }       
-    }
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG187",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
+					}
+				}
+			},
+			"asylumLevel7" : {
+				"name" : "Phantom Zone",
+				"creatures" : [
+					[
+						"plwalker"
+					]
+				],
+				"guards" : [
+					{
+						"amount" : 3,
+						"type" : "plwalker"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "asylum/map/dwellings/AVG189",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				}
+			}
+		}
+	}
 }

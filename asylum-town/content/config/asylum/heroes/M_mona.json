@@ -1,36 +1,30 @@
 {
-	"m_mona" :
-	{
-    "class": "mentalist",
-    "female" : true,
-		
-		"texts" :
-		{
+	"m_mona" : {
+		"class" : "mentalist",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Mona",
 			"biography" : "Mona had lived in Kreegan for many years, but she lost her confidence for demons. She decided to leave there and find a new place to realize her own ambition.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Secondary skill bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/mona/UN32T208.bmp",
 			"specialtyLarge" : "asylum/heroes/mona/UN44T208.bmp",
 			"large" : "asylum/heroes/mona/HPL004MN.bmp",
 			"small" : "asylum/heroes/mona/HPS004MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"slow"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,10 +51,9 @@
 				"skill" : "sorcery"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "sorcery"
 		}
 	}
 }
-

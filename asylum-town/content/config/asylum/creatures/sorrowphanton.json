@@ -1,139 +1,236 @@
 {
-  "sorrowphanton": {
-    "name": {
-      "plural": "Will-o'-the-Wisps",
-      "singular": "Will-o'-the-Wisp"
-    },
-    "advMapAmount": {
- "max" : 16,
- "min" : 10
-    },
-    "faction": "asylum",
-    "aiValue": 586,
-    "attack": 12,
-    "cost": {
-      "gold": 380
-    },
-    "damage": {
- "max" : 10,
- "min" : 6
-    },
-    "defense": 11,
-    "fightValue": 563,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST4U.def",
-      "map": "asylum/map/creatures/AVWC184.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS184Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL184Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.50,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 4,
-    "horde": 2,
-    "hitPoints": 30,
-    "level": 4,
-    "sound": {
-      "attack": "asylum/CPS4ATTK.wav",
-      "defend": "asylum/CPS4DFND.wav",
-      "killed": "asylum/CPS4KILL.wav",
-      "move": "asylum/CPS4MOVE.wav",
-      "wince": "asylum/CPS4WNCE.wav"
-    },
-    "speed": 12,
-    "abilities": {
-      "canFly": {
-        "type": "FLYING",
-		"subtype" : "movementFlying"
-      },
-      "undead": {
-        "type": "UNDEAD"
-      },
-      "caster": {
-        "type" : "SPELL_AFTER_ATTACK",
+	"sorrowphanton" : {
+		"name" : {
+			"plural" : "Will-o'-the-Wisps",
+			"singular" : "Will-o'-the-Wisp"
+		},
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "asylum",
+		"aiValue" : 586,
+		"attack" : 12,
+		"cost" : {
+			"gold" : 380
+		},
+		"damage" : {
+			"max" : 10,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 563,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST4U.def",
+			"map" : "asylum/map/creatures/AVWC184.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS184Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL184Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 4,
+		"horde" : 2,
+		"hitPoints" : 30,
+		"level" : 4,
+		"sound" : {
+			"attack" : "asylum/CPS4ATTK.wav",
+			"defend" : "asylum/CPS4DFND.wav",
+			"killed" : "asylum/CPS4KILL.wav",
+			"move" : "asylum/CPS4MOVE.wav",
+			"wince" : "asylum/CPS4WNCE.wav"
+		},
+		"speed" : 12,
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"caster" : {
+				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.sorrow",
 				"val" : 100,
-				"addInfo" : [2,0]
-      }
-    },
-    "stackExperience" :
-		[
+				"addInfo" : [
+					2,
+					0
+				]
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "spell.weakness",
-					"addInfo" : [3, 2]
+					"addInfo" : [
+						3,
+						2
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]	
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
-					
+				"bonus" : {
 					"type" : "SPELL_BEFORE_ATTACK",
 					"subtype" : "spell.misfortune",
-					"addInfo" : [3,2]
+					"addInfo" : [
+						3,
+						2
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 ]
-			},	
+				"values" : [
+					6,
+					12,
+					18,
+					24,
+					30,
+					36,
+					42,
+					48,
+					54,
+					60
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
-  }	
 	}
+}

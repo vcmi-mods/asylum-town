@@ -1,105 +1,148 @@
 {
-  "plwalker": {
-    "name": {
-      "plural": "Planeswalkers",
-      "singular": "Planeswalker"
-    },
-    "advMapAmount": {
- "max" : 10,
- "min" : 4
-    },
-    "faction": "asylum",
-    "aiValue": 5228,
-    "attack": 22,
-    "cost": {
-      "gold": 2600,
-      "crystal": 1
-    },
-    "damage": {
- "max" : 40,
- "min" : 30
-    },
-    "defense": 23,
-    "fightValue": 4288,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST7.def",
-      "map": "asylum/map/creatures/AVWC189.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS189Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL189Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "doubleWide": true,
-    "growth": 1,
-    "hitPoints": 150,
-    "level": 7,
-    "upgrades": [
-      "voidwalker"
-    ],
-    "sound": {
-      "attack": "asylum/CPS7ATTK.wav",
-      "defend": "asylum/CPS7DFND.wav",
-      "killed": "asylum/CPS7KILL.wav",
-      "move": "asylum/CPS7MOVE.wav",
-      "wince": "asylum/CPS7WNCE.wav",
-      "startMoving": "asylum/CPS7EXT1.wav",
-      "endMoving": "asylum/CPS7EXT2.wav"
-    },
-    "speed": 11,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind": {
-        "type": "MIND_IMMUNITY"
-      },
-	  "expertSlayer" : { "type" : "KING", "val": 3, "valueType" : "ADDITIVE_VALUE" },
-      "FLYING_ARMY": {
-        "type": "FLYING",
-        "subtype": "movementTeleporting"
-      },
-      "blockRetaliation": {
-        "type": "BLOCKS_RETALIATION"
-      }
-    },
-		"stackExperience" :
-		[
+	"plwalker" : {
+		"name" : {
+			"plural" : "Planeswalkers",
+			"singular" : "Planeswalker"
+		},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "asylum",
+		"aiValue" : 5228,
+		"attack" : 22,
+		"cost" : {
+			"gold" : 2600,
+			"crystal" : 1
+		},
+		"damage" : {
+			"max" : 40,
+			"min" : 30
+		},
+		"defense" : 23,
+		"fightValue" : 4288,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST7.def",
+			"map" : "asylum/map/creatures/AVWC189.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS189Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL189Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 150,
+		"level" : 7,
+		"upgrades" : [
+			"voidwalker"
+		],
+		"sound" : {
+			"attack" : "asylum/CPS7ATTK.wav",
+			"defend" : "asylum/CPS7DFND.wav",
+			"killed" : "asylum/CPS7KILL.wav",
+			"move" : "asylum/CPS7MOVE.wav",
+			"wince" : "asylum/CPS7WNCE.wav",
+			"startMoving" : "asylum/CPS7EXT1.wav",
+			"endMoving" : "asylum/CPS7EXT2.wav"
+		},
+		"speed" : 11,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"expertSlayer" : {
+				"type" : "KING",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"FLYING_ARMY" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"blockRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageBoth",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-	}	
+	}
 }

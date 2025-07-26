@@ -1,115 +1,183 @@
 {
-  "darkguard": {
-    "name": {
-      "plural": "Dark Guards",
-      "singular": "Dark Guard"
-    },
-    "advMapAmount": {
- "max" : 30,
- "min" : 20
-    },
-    "faction": "asylum",
-    "aiValue": 107,
-    "attack": 4,
-    "cost": {
-      "gold": 60
-    },
-    "damage": {
- "max" : 2,
- "min" : 2
-    },
-    "defense": 3,
-    "fightValue": 117,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST1U.def",
-      "map": "asylum/map/creatures/AVWC178.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS178Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL178Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 14,
-    "hitPoints": 8,
-    "horde": 6,
-    "level": 1,
-    "sound": {
-      "attack": "asylum/CPU1ATTK.wav",
-      "defend": "asylum/CPU1DFND.wav",
-      "killed": "asylum/CPU1KILL.wav",
-      "move": "asylum/CPU1MOVE.wav",
-      "wince": "asylum/CPU1WNCE.wav"
-    },
-    "speed": 6,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind" :
-			{
+	"darkguard" : {
+		"name" : {
+			"plural" : "Dark Guards",
+			"singular" : "Dark Guard"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "asylum",
+		"aiValue" : 107,
+		"attack" : 4,
+		"cost" : {
+			"gold" : 60
+		},
+		"damage" : {
+			"max" : 2,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 117,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST1U.def",
+			"map" : "asylum/map/creatures/AVWC178.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS178Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL178Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 14,
+		"hitPoints" : 8,
+		"horde" : 6,
+		"level" : 1,
+		"sound" : {
+			"attack" : "asylum/CPU1ATTK.wav",
+			"defend" : "asylum/CPU1DFND.wav",
+			"killed" : "asylum/CPU1KILL.wav",
+			"move" : "asylum/CPU1MOVE.wav",
+			"wince" : "asylum/CPU1WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
-    },
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "GENERAL_DAMAGE_REDUCTION",
 					"subtype" : "damageTypeAll"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-	}	
+	}
 }

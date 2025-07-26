@@ -1,36 +1,30 @@
 {
-	"n_jezebel" :
-	{
-    "class": "mentalist",
-    "female" : true,
-		
-		"texts" :
-		{
+	"n_jezebel" : {
+		"class" : "mentalist",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Jezebel",
 			"biography" : "Since she was a child, jezebel lived in a horde of barbarians in Enroth, but she did not want to live with the rude barbarians. After the Ironfist War, Jezebel left there for searching a beatiful world which she expected.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's gem production by 1 per day.",
 				"tooltip" : "Resource bonus: gems",
 				"name" : "+1 Gem"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/jezebel/UN32T209.bmp",
 			"specialtyLarge" : "asylum/heroes/jezebel/UN44T209.bmp",
 			"large" : "asylum/heroes/jezebel/HPL005MN.bmp",
 			"small" : "asylum/heroes/jezebel/HPS005MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"visions"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +51,7 @@
 				"skill" : "learning"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {
@@ -70,4 +63,3 @@
 		}
 	}
 }
-

@@ -1,20 +1,22 @@
 {
 	"name" : "Asylum Town",
 	"description" : "Asylum Town remade from Ben in Apr. 2023",
-	
+
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "2.17",
-	"modType" : "Town",	
-	
-    "factions" : [ "config/asylum/town" ],
-	"depends" : ["newtown-terrains.stardustterrain"],  
-	"compatibility" :
-	{
+	"modType" : "Town",
+
+	"factions" : [
+		"config/asylum/town"
+	],
+	"depends" : [
+		"newtown-terrains.stardustterrain"
+	],
+	"compatibility" : {
 		"min" : "1.7.0"
-	},		
-	"creatures" :
-	[
+	},
+	"creatures" : [
 		"config/asylum/creatures/darksquire.json",
 		"config/asylum/creatures/darkguard.json",
 		"config/asylum/creatures/winddancer.json",
@@ -32,15 +34,13 @@
 		"config/asylum/creatures/jesterDeliver.json",
 		"config/asylum/creatures/acommander.json"
 	],
-	
-	"heroClasses" :
-	[
+
+	"heroClasses" : [
 		"config/asylum/classes/pathfinder.json",
 		"config/asylum/classes/mentalist.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/asylum/heroes/A_alach.json",
 		"config/asylum/heroes/B_pauline.json",
 		"config/asylum/heroes/C_harker.json",
@@ -58,13 +58,11 @@
 		"config/asylum/heroes/O_margareta.json",
 		"config/asylum/heroes/P_lynn.json"
 	],
-	 "objects":
-    [
+	"objects" : [
 		"config/asylum/dwellings.json",
 		"config/asylum/boats.json"
-    ],
-	"spells" :
-	[
+	],
+	"spells" : [
 		"config/asylum/NewOldSpells/terrorEye.json",
 		"config/asylum/NewOldSpells/birthdayGift.json",
 		"config/asylum/NewOldSpells/summonJester.json",
@@ -72,37 +70,97 @@
 		"config/asylum/NewOldSpells/seduce.json",
 		"config/asylum/NewOldSpells/moat.json"
 	],
-	"changelog" :
-    {
-		"2.17"  : [ "Another update to vcmi-1.7 format" ],
-		"2.16"  : [ "Update to vcmi-1.7 format" ],
-		"2.15"  : [ "New portraits." ],
-		"2.14"  : [ "Fixed russian translation." ],
-		"2.13"  : [ "Fixed Polish translation integrity with original game version by Yoshiro." ],
-		"2.12"	: [ "Fix Grail not to produce gold" ],
-		"2.11"	: [ "Update to vcmi-1.6 format" ],
-		"2.10"	: [ "Updated russian translation" ],
-		"2.09"	: [ "Russian translation by Anton Sergeew" ],
-		"2.08"	: [ "Polish translation by ToRRent1812" ],
-		"2.07"	: [ "Added the creatures' stackExp and fixed the commander" ],
-		"2.06"	: [ "Update to vcmi-1.4 format" ],
-		"2.05"	: [ "Link to new terrian" ],
-		"2.04"	: [ "New portraits" ],
-		"2.03"	: [ "Update to vcmi-1.3 format" ],
-		"2.02"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"2.01"	: [ "Fixing and cleaning some files" ],
-		"2.00"	: [ "Add stardust terrian for Asylum. New BGM for stardust which was made by myself" ],
-		"1.50"	: [ "Some new partitions" ],
-		"1.20"	 : [ "Small fixes and a spell Gift Delivery for my 30th birthday, original name is Birthday Gift"],
-		"1.10"   : [ "Small fixes" ],
-		"1.08"   : [ "Changes for vcmi-1.2 version" ],		
-		"1.07"   : [ "New DAEMON_SUMMONING format", "Arrow towers icons" ],		
-		"1.06"   : [ "Partial special buildings support"],
-		"1.05"   : [ "new models and animations, new spells"],
-		"1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
-		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
-		"1.00"   : [ "Initial release" ]
-    },
+	"changelog" : {
+		"2.17" : [
+			"Another update to vcmi-1.7 format"
+		],
+		"2.16" : [
+			"Update to vcmi-1.7 format"
+		],
+		"2.15" : [
+			"New portraits."
+		],
+		"2.14" : [
+			"Fixed russian translation."
+		],
+		"2.13" : [
+			"Fixed Polish translation integrity with original game version by Yoshiro."
+		],
+		"2.12" : [
+			"Fix Grail not to produce gold"
+		],
+		"2.11" : [
+			"Update to vcmi-1.6 format"
+		],
+		"2.10" : [
+			"Updated russian translation"
+		],
+		"2.09" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"2.08" : [
+			"Polish translation by ToRRent1812"
+		],
+		"2.07" : [
+			"Added the creatures' stackExp and fixed the commander"
+		],
+		"2.06" : [
+			"Update to vcmi-1.4 format"
+		],
+		"2.05" : [
+			"Link to new terrian"
+		],
+		"2.04" : [
+			"New portraits"
+		],
+		"2.03" : [
+			"Update to vcmi-1.3 format"
+		],
+		"2.02" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"2.01" : [
+			"Fixing and cleaning some files"
+		],
+		"2.00" : [
+			"Add stardust terrian for Asylum. New BGM for stardust which was made by myself"
+		],
+		"1.50" : [
+			"Some new partitions"
+		],
+		"1.20" : [
+			"Small fixes and a spell Gift Delivery for my 30th birthday, original name is Birthday Gift"
+		],
+		"1.10" : [
+			"Small fixes"
+		],
+		"1.08" : [
+			"Changes for vcmi-1.2 version"
+		],
+		"1.07" : [
+			"New DAEMON_SUMMONING format",
+			"Arrow towers icons"
+		],
+		"1.06" : [
+			"Partial special buildings support"
+		],
+		"1.05" : [
+			"new models and animations, new spells"
+		],
+		"1.02" : [
+			"Upgaded graphic",
+			"Hero males and female sprites on the battlefields",
+			"Small fixes"
+		],
+		"1.01" : [
+			"Added new commander",
+			"New puzzle by acidchalk",
+			"Bug fixes"
+		],
+		"1.00" : [
+			"Initial release"
+		]
+	},
 	"chinese" : {
 		"name" : "梦境",
 		"description" : "梦境是一个黑暗精灵为主体的种族。主要兵种为黑暗精灵和异界生物。均免疫心智和士气。",

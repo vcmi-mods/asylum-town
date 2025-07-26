@@ -1,36 +1,30 @@
 {
-	"j_mog" :
-	{
-    "class": "mentalist",
-    "female" : false,
-		
-		"texts" :
-		{
+	"j_mog" : {
+		"class" : "mentalist",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Mog",
 			"biography" : "Mog spent many year to research the psychic power. As an experiment, he controlled Dainwin, a knight in Enroth. Now he comes to a new land for increasing his power, and realizes his amibition.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Secondary skill bonus: Intelligence",
 				"name" : "Intelligence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/mog/UN32T205.bmp",
 			"specialtyLarge" : "asylum/heroes/mog/UN44T205.bmp",
 			"large" : "asylum/heroes/mog/HPL001MN.bmp",
 			"small" : "asylum/heroes/mog/HPS001MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"curse"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,10 +51,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "intelligence"
 		}
 	}
 }
-

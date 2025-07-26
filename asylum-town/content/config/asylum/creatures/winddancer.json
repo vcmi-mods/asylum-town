@@ -1,126 +1,206 @@
 {
-  "winddancer": {
-    "name": {
-      "plural": "Wind Dancers",
-      "singular": "Wind Dancer"
-    },
-    "advMapAmount": {
- "max" : 30,
- "min" : 16
-    },
-    "faction": "asylum",
-    "aiValue": 180,
-    "attack": 6,
-    "cost": {
-      "gold": 100
-    },
-    "damage": {
- "max" : 3,
- "min" : 2
-    },
-    "defense": 5,
-    "fightValue": 187,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST2.def",
-      "map": "asylum/map/creatures/AVWC179.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS179Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL179Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 9,
-    "hitPoints": 15,
-    "level": 2,
-    "upgrades":
-		[
+	"winddancer" : {
+		"name" : {
+			"plural" : "Wind Dancers",
+			"singular" : "Wind Dancer"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "asylum",
+		"aiValue" : 180,
+		"attack" : 6,
+		"cost" : {
+			"gold" : 100
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 187,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST2.def",
+			"map" : "asylum/map/creatures/AVWC179.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS179Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL179Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 15,
+		"level" : 2,
+		"upgrades" : [
 			"shadowdancer"
 		],
-    "sound": {
-      "attack": "asylum/CPS2ATTK.wav",
-      "defend": "asylum/CPS2DFND.wav",
-      "killed": "asylum/CPS2KILL.wav",
-      "move": "asylum/CPS2MOVE.wav",
-      "wince": "asylum/CPS2WNCE.wav"
-    },
-    "speed": 7,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind" :
-			{
+		"sound" : {
+			"attack" : "asylum/CPS2ATTK.wav",
+			"defend" : "asylum/CPS2DFND.wav",
+			"killed" : "asylum/CPS2KILL.wav",
+			"move" : "asylum/CPS2MOVE.wav",
+			"wince" : "asylum/CPS2WNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
-    },
-    "stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "spell.poison",
-					"addInfo" : [1, 0]
+					"addInfo" : [
+						1,
+						0
+					]
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "GENERAL_ATTACK_REDUCTION"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
-	}	
+	}
 }

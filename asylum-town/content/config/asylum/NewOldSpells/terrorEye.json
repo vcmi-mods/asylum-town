@@ -1,32 +1,36 @@
 {
-	"terrorEye":
-	{
-		"type": "ability", 
-		"name": "Terror Eye",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": true
+	"terrorEye" : {
+		"type" : "ability",
+		"name" : "Terror Eye",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		},
-		"level": 3,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 3,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":[{"defName":"NewOldSpells/DreadEye.def","verticalPosition":"bottom"}]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "NewOldSpells/DreadEye.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
- 
-		"flags" : {"negative": true},
- 
+
+		"flags" : {
+			"negative" : true
+		},
+
 		"targetCondition" : {
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
@@ -37,58 +41,41 @@
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
- 
-		"graphics":
-		{
-			"iconBook": "NewOldSpells/Forgetfulness0.bmp",
-			"iconScroll": "NewOldSpells/Forgetfulness1.bmp",
-			"iconScenarioBonus": "NewOldSpells/Forgetfulness2.bmp",
-			"iconEffect": "NewOldSpells/Forgetfulness3.bmp"
+
+		"graphics" : {
+			"iconBook" : "NewOldSpells/Forgetfulness0.bmp",
+			"iconScroll" : "NewOldSpells/Forgetfulness1.bmp",
+			"iconScenarioBonus" : "NewOldSpells/Forgetfulness2.bmp",
+			"iconEffect" : "NewOldSpells/Forgetfulness3.bmp"
 		},
 
-		"sounds":
-		{
-			"cast":"NewOldSpells/sound.spell.disintegrate.wav"
+		"sounds" : {
+			"cast" : "NewOldSpells/sound.spell.disintegrate.wav"
 		},
 		"targetType" : "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"description" : "{Terror Eye}\r\n\r\nYou cannot see this description.",
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"cost": 0,	 
-				"effects":
-				{
-					"undead":
-					{
-						"type": "NO_RETALIATION",
-						"duration": "N_TURNS"
+				"cost" : 0,
+				"effects" : {
+					"undead" : {
+						"type" : "NO_RETALIATION",
+						"duration" : "N_TURNS"
 					}
-				}				
+				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-				"range": "X"
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {
+				"range" : "X"
 			}
 		}
 	}

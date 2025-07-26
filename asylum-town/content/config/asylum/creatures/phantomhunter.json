@@ -1,143 +1,233 @@
 {
-  "phantomhunter": {
-    "name": {
-      "plural": "Phantom Hunters",
-      "singular": "Phantom Hunter"
-    },
-    "advMapAmount": {
- "max" : 20,
- "min" : 12
-    },
-    "faction": "asylum",
-    "aiValue": 379,
-    "attack": 8,
-    "cost": {
-      "gold": 240
-    },
-    "damage": {
- "max" : 6,
- "min" : 3
-    },
-    "defense": 9,
-    "fightValue": 375,
-    "graphics": {
-      "animation": "asylum/battle/creatures/CPST3U.def",
-      "map": "asylum/map/creatures/AVWC182.def",
-      "iconSmall": "asylum/iconsSmall/creatures/CPRS182Y.bmp",
-      "iconLarge": "asylum/iconsBig/creatures/CPRL182Y.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      },
-    "missile": {
-      "projectile": "PELFX.DEF",
-      "attackClimaxFrame": 7,
-      "offset": {
-        "upperX": 38,
-        "upperY": -65,
-        "middleX": 36,
-        "middleY": -59,
-        "lowerX": 21,
-        "lowerY": -50
-      },
-      "frameAngles": [ 90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0 ]
-    }
-	},
-    "growth": 7,
-    "hitPoints": 23,
-    "shots": 24,
-    "level": 3,
-    "sound": {
-      "attack": "asylum/CPU3ATTK.wav",
-      "defend": "asylum/CPU3DFND.wav",
-      "killed": "asylum/CPU3KILL.wav",
-      "move": "asylum/CPU3MOVE.wav",
-      "shoot": "asylum/CPU3SHOT.wav",
-      "wince": "asylum/CPU3WNCE.wav"
-    },
-    "speed": 6,
-    "abilities": {
-      "noMorale": {
-        "type": "NO_MORALE"
-      },
-      "noMind": {
-        "type": "MIND_IMMUNITY"
-      },
-      "canShoot": {
-        "type": "SHOOTER"
-      },
-      "noDistancePenalty": {
-        "type": "NO_DISTANCE_PENALTY"
-      }
-    },
-    "stackExperience" :
-		[
+	"phantomhunter" : {
+		"name" : {
+			"plural" : "Phantom Hunters",
+			"singular" : "Phantom Hunter"
+		},
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 12
+		},
+		"faction" : "asylum",
+		"aiValue" : 379,
+		"attack" : 8,
+		"cost" : {
+			"gold" : 240
+		},
+		"damage" : {
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 9,
+		"fightValue" : 375,
+		"graphics" : {
+			"animation" : "asylum/battle/creatures/CPST3U.def",
+			"map" : "asylum/map/creatures/AVWC182.def",
+			"iconSmall" : "asylum/iconsSmall/creatures/CPRS182Y.bmp",
+			"iconLarge" : "asylum/iconsBig/creatures/CPRL182Y.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "PELFX.DEF",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"growth" : 7,
+		"hitPoints" : 23,
+		"shots" : 24,
+		"level" : 3,
+		"sound" : {
+			"attack" : "asylum/CPU3ATTK.wav",
+			"defend" : "asylum/CPU3DFND.wav",
+			"killed" : "asylum/CPU3KILL.wav",
+			"move" : "asylum/CPU3MOVE.wav",
+			"shoot" : "asylum/CPU3SHOT.wav",
+			"wince" : "asylum/CPU3WNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"noMorale" : {
+				"type" : "NO_MORALE"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
+			},
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noDistancePenalty" : {
+				"type" : "NO_DISTANCE_PENALTY"
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},	
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
-					"subtype" : "spell.shield", 
+					"subtype" : "spell.shield"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 2, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
-  }
+	}
 }
-  
-	

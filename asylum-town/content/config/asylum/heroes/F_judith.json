@@ -1,32 +1,26 @@
 {
-	"f_judith" :
-	{
-    "class": "pathfinder",
-    "female" : false,
-		
-		"texts" :
-		{
+	"f_judith" : {
+		"class" : "pathfinder",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Judith",
 			"biography" : "Before he joined the Asylum, Judith is a good leader for crusaders in Erathia. He decided to persure the dark power since he had battled with vampires. To become a dark knight might be his pursuance.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Spirit Crusaders or Soul Crusaders by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature bonus: Spirit Crusaders",
 				"name" : "Spirit Crusaders"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/judith/UN32T201.bmp",
 			"specialtyLarge" : "asylum/heroes/judith/UN44T201.bmp",
 			"large" : "asylum/heroes/judith/HPL005PF.bmp",
 			"small" : "asylum/heroes/judith/HPS005PF.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -43,8 +37,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "leadership"
@@ -54,10 +47,9 @@
 				"skill" : "diplomacy"
 			}
 		],
-		
-			"specialty" : {
+
+		"specialty" : {
 			"creature" : "spiritcrus"
 		}
 	}
 }
-

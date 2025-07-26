@@ -1,36 +1,30 @@
 {
-	"o_margareta" :
-	{
-    "class": "mentalist",
-    "female" : true,
-		
-		"texts" :
-		{
+	"o_margareta" : {
+		"class" : "mentalist",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Margareta",
 			"biography" : "Margareta is a famous sorceress, but less people know her background. Many individuals like talking with her. However, they never remember what they talk with Margareta, because all of their memories in this moment were deleted by the powerful sorceress. ",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Forgetfulness with expert effects but not expert range.",
 				"tooltip" : "Spell bonus: Forgetfulness",
 				"name" : "Forgetfulness"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "asylum/heroes/margareta/UN32T210.bmp",
 			"specialtyLarge" : "asylum/heroes/margareta/UN44T210.bmp",
 			"large" : "asylum/heroes/margareta/HPL006MN.bmp",
 			"small" : "asylum/heroes/margareta/HPS006MN.bmp"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"forgetfulness"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "darksquire",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +51,7 @@
 				"skill" : "fireMagic"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"forgetfulness" : {
@@ -70,4 +63,3 @@
 		}
 	}
 }
-
