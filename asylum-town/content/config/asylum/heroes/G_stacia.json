@@ -10,7 +10,7 @@
 			"biography" : "Stacia used to hate unicorns, even feared them since she was a child. She left Vori and sailed across the ocean, to find a place without unicorns. While a storm destoryed her ship, she had to settle down in a mystical island. In this island, she found the nightmares can become their companion. Now she does not fear unicorns any longer.",
 			"specialty" :
 			{
-				"description" : "{Nightmares}\r\n\r\nIncreases Speed of any Nightmares or Shadowmares by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"description" : "Increases Speed of any Nightmares or Shadowmares by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature bonus: Nightmares",
 				"name" : "Nightmares"
 			}

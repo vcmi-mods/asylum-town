@@ -10,7 +10,7 @@
 			"biography" : "Pauline's long purplr hair and a pair of amethyst eyes are the symbol of a noble girl. However, Pauline prefer to learning archery instead of being a nobility. The amethyst girl used to live in Bracada, she started to go to the enigma place and search for her own livelihood after she had felt psychic power.",
 			"specialty" :
 			{
-				"description" : "{Shadow Hunters}\r\n\r\nIncreases Speed of any Shadow Hunters or Phantom Hunters by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
+				"description" : "Increases Speed of any Shadow Hunters or Phantom Hunters by 1 and their Attack and Defense skills by 5% for 3 levels (rounded up).",
 				"tooltip" : "Creature bonus: Shadow Hunter",
 				"name" : "Shadow Hunters"
 			}

@@ -10,7 +10,7 @@
 			"biography" : "Brid used to be a magic apprentice in Bracada, but he was deported because he wanted to learn dark magic. He could never quit for his interest although he cannot study in college any more.",
 			"specialty" :
 			{
-				"description" : "{Blind}\r\n\r\nCasts Blind with expert effects but not expert range.",
+				"description" : "Casts Blind with expert effects but not expert range.",
 				"tooltip" : "Spell bonus: Blind",
 				"name" : "Blind"
 			}
@@ -63,7 +63,7 @@
 			"bonuses" : {
 				"blind" : {
 					"addInfo" : 3,
-					"subtype" : "spell.blind",
+					"subtype" : "blind",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

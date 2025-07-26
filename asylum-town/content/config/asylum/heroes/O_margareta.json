@@ -10,7 +10,7 @@
 			"biography" : "Margareta is a famous sorceress, but less people know her background. Many individuals like talking with her. However, they never remember what they talk with Margareta, because all of their memories in this moment were deleted by the powerful sorceress. ",
 			"specialty" :
 			{
-				"description" : "{Forgetfulness}\r\n\r\nCasts Forgetfulness with expert effects but not expert range.",
+				"description" : "Casts Forgetfulness with expert effects but not expert range.",
 				"tooltip" : "Spell bonus: Forgetfulness",
 				"name" : "Forgetfulness"
 			}
@@ -63,7 +63,7 @@
 			"bonuses" : {
 				"forgetfulness" : {
 					"addInfo" : 0,
-					"subtype" : "spell.forgetfulness",
+					"subtype" : "forgetfulness",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

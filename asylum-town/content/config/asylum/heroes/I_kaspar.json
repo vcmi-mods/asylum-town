@@ -10,7 +10,7 @@
 			"biography" : "Kaspar spent several years in an Erathian prison for impersonating a noble and accumulating more than one hundred thousand gold in debt.  While in the dungeons, however, he learned magic from an old, nameless sorcerer, and then he was released by the guard who had been controlled by psychic magic.",
 			"specialty" :
 			{
-				"description" : "{Berserk}\r\n\r\nCasts Berserk with expert effects but not expert range.",
+				"description" : "Casts Berserk with expert effects but not expert range.",
 				"tooltip" : "Spell bonus: berserk",
 				"name" : "Berserk"
 			}
@@ -63,7 +63,7 @@
 			"bonuses" : {
 				"berserk" : {
 					"addInfo" : 3,
-					"subtype" : "spell.berserk",
+					"subtype" : "berserk",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}

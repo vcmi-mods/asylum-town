@@ -10,7 +10,7 @@
 			"biography" : "Viola might be beautiful and charming, but no one dares to be a persuer of her. Almost anyone knows she has the ability of hypnotize, her voice might be a powerful weapon if someone becomes her opposite. ",
 			"specialty" :
 			{
-				"description" : "{Hypnotize}\r\n\r\nCasts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"description" : "Casts Hypnotize with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Spell bonus: Hypnotize",
 				"name" : "Hypnotize"
 			}
@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"hypnotize" : {
-					"subtype" : "spell.hypnotize",
+					"subtype" : "hypnotize",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5

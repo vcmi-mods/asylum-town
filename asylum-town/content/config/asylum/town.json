@@ -73,8 +73,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" :
 				{
@@ -90,9 +89,7 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
+					}
 				},
 				"mageGuild3" :
 				{
@@ -107,9 +104,7 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" :
 				{
@@ -124,9 +119,7 @@
                         "crystal": 8,
                         "gems": 8,
                         "gold": 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" :
 				{
@@ -141,9 +134,7 @@
                         "crystal": 10,
                         "gems": 10,
                         "gold": 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" :
 				{
@@ -153,8 +144,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"dock" :
 				{
@@ -176,8 +166,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" :
 				{
@@ -187,9 +176,7 @@
 					{
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" :
 				{
@@ -200,16 +187,12 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" :
 				{
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" :
 				{
@@ -218,10 +201,7 @@
 					"cost" :
 					{
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [ "tavern" ],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" :
 				{
@@ -231,9 +211,7 @@
 					{
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
-					"id" : 12,
-					"upgrades" : "townHall"
+					"requires" : [ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ]
 				},
 				"capitol" :
 				{
@@ -242,10 +220,7 @@
 					"cost" :
 					{
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : [ "castle" ],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" :
 				{
@@ -255,9 +230,7 @@
 					{
 						"wood" : 5,
 						"gold" : 500
-					},
-					"marketModes" : ["resource-resource", "resource-player"],
-					"id" : 14
+					}
 				},
 				"resourceSilo" :
 				{
@@ -268,9 +241,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"requires" : [ "marketplace" ],
-					"produce": { "crystal": 1},
-					"id" : 15
+					"produce": { "crystal": 1}
 				},
 				"blacksmith" :
 				{
@@ -281,8 +252,7 @@
 					{
 						"wood" : 5,
 						"gold" : 1000
-					},
-					"id" : 16
+					}
 				},
 				"horde1" :
 				{
@@ -292,7 +262,6 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 18,
 					"upgrades" : "dwellingLvl1",
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl1"] ]
 				},
@@ -305,15 +274,12 @@
 						"gold" : 1000
 					},
 					"requires" : [ "allOf", ["horde1"], ["dwellingUpLvl1"] ],
-					"upgrades" : "dwellingUpLvl1",
-					"id" : 19,
-					"mode" : "auto"
+					"upgrades" : "dwellingUpLvl1"
 				},
 				"boat" :
 				{
 					"description" : "Shipyard allows ships to be built.",
-					"name" : "Shipyard",
-					"id" : 20
+					"name" : "Shipyard"
 				},
 				"special1" : 
 				{
@@ -322,15 +288,14 @@
 					"bonuses": [
 					{
 						"type": "PRIMARY_SKILL",
-						"subtype": "primarySkill.spellpower",
+						"subtype": "spellpower",
 						"val": 2
 					}
 				],
 					"cost" : 
 					{
 						"gold" : 1000
-					},
-					"id" : 17
+					}
 				},
         "special2": {
           "description": "Crystal of Sorcery increases 10 per cent of sorcery power for each hero.",
@@ -340,8 +305,7 @@
             "crystal": 2,
             "gems": 2,
 			"gold" : 1000
-          },
-          "id": 22
+          }
         },	
         "horde2" :
 				{
@@ -352,7 +316,6 @@
             "gold": 1000,
             "sulfur": 2
 					},
-					"id" : 24,
 					"upgrades" : "dwellingLvl4",
 					"requires" : [ "allOf", ["fort"], ["dwellingLvl4"] ]
 				},
@@ -366,17 +329,12 @@
 						"sulfur": 2
 					},
 					"requires" : [ "allOf", ["horde2"], ["dwellingUpLvl4"] ],
-					"upgrades" : "dwellingUpLvl4",
-					"id" : 25,
-					"mode" : "auto"
+					"upgrades" : "dwellingUpLvl4"
 				},
 				"grail" :
 				{
 					"description" : "The presence of the Starlight Mirage increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, increases 30 per cent of sorcery power for each hero, and also increases the Power of a garrison hero by +10 when defending against a siege.",
 					"name" : "Starlight Mirage",
-					"id" : 26,
-					"mode" : "grail",
-					"produce": { "gold": 5000 },
 					"bonuses": [
 						{ "type": "PRIMARY_SKILL", "subtype": "spellpower", "val": 10 },
 						{ "type": "SPELL_DAMAGE", "val": 30, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER" } 						
@@ -391,8 +349,7 @@
 						"gold" : 500,
 						"ore" : 5
 					},
-					"requires" : [ "fort" ],
-					"id" : 30
+					"requires" : [ "fort" ]
 				},
 				"dwellingLvl2" :
 				{
@@ -404,8 +361,7 @@
             "ore": 5,
             "wood": 5
 					},
-					"requires" : [ "dwellingLvl1" ],
-					"id" : 31
+					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl3" :
 				{
@@ -416,8 +372,7 @@
 						"gold" : 1500,
 						"wood" : 10
 					},
-					"requires" : [ "dwellingLvl2" ],
-					"id" : 32
+					"requires" : [ "dwellingLvl2" ]
 				},
 				"dwellingLvl4" :
 				{
@@ -429,8 +384,7 @@
             "ore": 5,
             "wood": 5
 					},
-					"requires" : [ "dwellingLvl2" ],
-					"id" : 33
+					"requires" : [ "dwellingLvl2" ]
 				},
 				"dwellingLvl5" :
 				{
@@ -441,8 +395,7 @@
 						"gold" : 3000,
 						"ore" : 15
 					},
-					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ],
-					"id" : 34
+					"requires" : [ "allOf", ["mageGuild1"], ["dwellingLvl3"] ]
 				},
 				"dwellingLvl6" :
 				{
@@ -454,8 +407,7 @@
 						"ore" : 10,
             "gems": 10
 					},
-					"requires" : [ "dwellingLvl4" ],
-					"id" : 35
+					"requires" : [ "dwellingLvl4" ]
 				},
 				"dwellingLvl7" :
 				{
@@ -468,8 +420,7 @@
 						"crystal" : 15,
 						"sulfur" : 5
 					},
-					"requires" : [ "dwellingLvl5" ],
-					"id" : 36
+					"requires" : [ "dwellingLvl5" ]
 				},
 				"dwellingUpLvl1" :
 				{
@@ -479,7 +430,6 @@
 					{
 						"gold" : 1000
 					},
-					"id" : 37,
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" :
@@ -492,7 +442,6 @@
             "ore": 5,
             "mercury": 3
 					},
-					"id" : 38,
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" :
@@ -504,7 +453,6 @@
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" :
@@ -517,7 +465,6 @@
             "ore": 5,
             "crystal": 5
 					},
-					"id" : 40,
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" :
@@ -529,7 +476,6 @@
 						"gold" : 2000,
             "mercury": 10
 					},
-					"id" : 41,
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" :
@@ -542,7 +488,6 @@
 						"crystal": 10,
 						"gems": 5
 					},
-					"id" : 42,
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" :
@@ -556,7 +501,6 @@
 						"ore" : 5,
 						"crystal" : 25
 					},
-					"id" : 43,
 					"requires" : [ "mageGuild2" ],
 					"upgrades" : "dwellingLvl7"
 				}				

@@ -10,7 +10,7 @@
 			"biography" : "As a sacred priest, Sister Elisa used to be a companion of King Roland. After the battle of Ironfist, she started to show her interest in dark power. Now she no longer follows the King Roland and persue a new identification, as an assassin.",
 			"specialty" :
 			{
-				"description" : "{Wind Dancers}\r\n\r\nIncreases Speed of any Wind Dancers or Shadow Dancers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"description" : "Increases Speed of any Wind Dancers or Shadow Dancers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature bonus: Wind Dancers",
 				"name" : "Wind Dancers"
 			}

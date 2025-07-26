@@ -10,7 +10,7 @@
 			"biography" : "Before he joined the Asylum, Judith is a good leader for crusaders in Erathia. He decided to persure the dark power since he had battled with vampires. To become a dark knight might be his pursuance.",
 			"specialty" :
 			{
-				"description" : "{Spirit Crusaders}\r\n\r\nIncreases Speed of any Spirit Crusaders or Soul Crusaders by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"description" : "Increases Speed of any Spirit Crusaders or Soul Crusaders by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature bonus: Spirit Crusaders",
 				"name" : "Spirit Crusaders"
 			}

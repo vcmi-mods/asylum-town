@@ -10,7 +10,7 @@
 			"biography" : "As a mental strengthed warrior, Alach is cruel and merciless to any opposites. He never takes off his mental mask since he had joined the Asylum.",
 			"specialty" :
 			{
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
+				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Secondary skill bonus: Offence",
 				"name" : "Offence"
 			}
@@ -56,16 +56,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"offence" : {
-					"subtype" : "damageTypeMelee",
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL"
-				}
-			}
+			"secondary" : "offence"
 		}
 	}
 }

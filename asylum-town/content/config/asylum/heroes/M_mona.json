@@ -10,7 +10,7 @@
 			"biography" : "Mona had lived in Kreegan for many years, but she lost her confidence for demons. She decided to leave there and find a new place to realize her own ambition.",
 			"specialty" :
 			{
-				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Secondary skill bonus: Sorcery",
 				"name" : "Sorcery"
 			}
@@ -60,15 +60,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "sorcery"
 		}
 	}
 }

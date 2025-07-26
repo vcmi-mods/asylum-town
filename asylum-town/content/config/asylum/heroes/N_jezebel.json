@@ -10,7 +10,7 @@
 			"biography" : "Since she was a child, jezebel lived in a horde of barbarians in Enroth, but she did not want to live with the rude barbarians. After the Ironfist War, Jezebel left there for searching a beatiful world which she expected.",
 			"specialty" :
 			{
-				"description" : "{Gems}\r\n\r\nIncreases kingdom's gem production by 1 per day.",
+				"description" : "Increases kingdom's gem production by 1 per day.",
 				"tooltip" : "Resource bonus: gems",
 				"name" : "+1 Gem"
 			}
@@ -62,7 +62,7 @@
 		"specialty" : {
 			"bonuses" : {
 				"gems" : {
-					"subtype" : "resource.gems",
+					"subtype" : "gems",
 					"type" : "GENERATE_RESOURCE",
 					"val" : 1
 				}
