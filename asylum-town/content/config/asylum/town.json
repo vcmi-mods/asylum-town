@@ -462,7 +462,8 @@
 				},
 				"boat" : {
 					"description" : "Shipyard allows ships to be built.",
-					"name" : "Shipyard"
+					"name" : "Shipyard",
+					"id" : 20
 				},
 				"special1" : {
 					"description" : "The Stardust Falls increases the Spellpower by +2 for heroes in a siege war.",
