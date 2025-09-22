@@ -4,7 +4,7 @@
 
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.17",
+	"version" : "2.18",
 	"modType" : "Town",
 
 	"factions" : [
@@ -71,6 +71,9 @@
 		"config/asylum/NewOldSpells/moat.json"
 	],
 	"changelog" : {
+		"2.18" : [
+			"Added flagport frames (Kingdom Overwiev window)"
+		],
 		"2.17" : [
 			"Another update to vcmi-1.7 format"
 		],

@@ -1,0 +1,10 @@
+{
+	"basepath" : "asylum/map/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "asylumdw02"
+		}
+	]
+}

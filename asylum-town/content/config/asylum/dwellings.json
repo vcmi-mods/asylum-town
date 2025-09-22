@@ -18,7 +18,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw01.def"
 			},
 			"asylumLevel2" : {
 				"name" : "Shadow Arena",
@@ -36,7 +37,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw02.def"
 			},
 			"asylumLevel3" : {
 				"name" : "Psychic Window",
@@ -55,7 +57,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw03.def"
 			},
 			"asylumLevel4" : {
 				"name" : "Swampy Pit",
@@ -73,7 +76,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw04.def"
 			},
 			"asylumLevel5" : {
 				"name" : "Order of Spirit",
@@ -97,7 +101,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw05.def"
 			},
 			"asylumLevel6" : {
 				"name" : "Psychedelic Forest",
@@ -126,7 +131,8 @@
 							"VAB"
 						]
 					}
-				}
+6			},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw06.def"
 			},
 			"asylumLevel7" : {
 				"name" : "Phantom Zone",
@@ -150,7 +156,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "asylum/map/flagports/asylumdw01.def"
 			}
 		}
 	}
