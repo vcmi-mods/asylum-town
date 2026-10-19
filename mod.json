@@ -1,8 +1,8 @@
 {
 	"name" : "Asylum Town",
-	"description" : "Asylum Town remade from Ben in Apr. 2023",
+	"description" : "Asylum is a haunting realm of dreams and madness whose ethereal creatures march in shades of purple.",
 
-	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
+	"author" : "Just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "2.18",
 	"modType" : "Town",
@@ -169,6 +169,13 @@
 		"description" : "梦境是一个黑暗精灵为主体的种族。主要兵种为黑暗精灵和异界生物。均免疫心智和士气。",
 		"translations" : [
 			"translation/chinese.json"
+		]
+	},
+	"french" : {
+		"name" : "Asile",
+		"description" : "Asile est un royaume troublant de rêves et de folie, dont les créatures éthérées défilent dans des nuances de pourpre.",
+		"translations" : [
+			"translation/french.json"
 		]
 	},
 	"german" : {
