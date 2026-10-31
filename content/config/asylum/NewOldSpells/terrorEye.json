@@ -56,7 +56,7 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "{Terror Eye}\r\n\r\nYou cannot see this description.",
+				"description" : "{Terror Eye}\r\n\r\nOne glare of pure dread, and the stricken creature no longer remembers how to fight back.",
 				"power" : 10,
 				//				"aiValue": 12,
 				"range" : "0",
@@ -71,10 +71,18 @@
 					}
 				}
 			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
+			"none" : {
+				"description" : "{Terror Eye}\r\n\r\nOne glare of pure dread, and the stricken creature no longer remembers how to fight back."
+			},
+			"basic" : {
+				"description" : "{Basic Terror Eye}\r\n\r\nThe Shadowmare's dreadful gaze leaves its victim too shaken to strike back. Only the fearless feel nothing."
+			},
+			"advanced" : {
+				"description" : "{Advanced Terror Eye}\r\n\r\nHalf of the mare's stares hit home, leaving the victim too terrified to retaliate for several turns. Please do not make eye contact."
+			},
 			"expert" : {
+				"description" : "{Expert Terror Eye}\r\n\r\nThe stare reaches across the whole battlefield, gripping the victim with terror until it forgets how to retaliate. Undead, machines and the mindless meet it with empty eyes.",
+			
 				"range" : "X"
 			}
 		}

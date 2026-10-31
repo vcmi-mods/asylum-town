@@ -61,13 +61,13 @@
 				"description" : "{Gift}\r\n\r\nYour birthday cake!"
 			},
 			"basic" : {
-				"description" : "{Gift}\r\n\r\nYou cannot see this description."
+				"description" : "{Basic Gift}\r\n\r\nAfter each attack, the Jester blows out the candles: a small blast of damage hits the victim and its neighbours. No one may refuse a present."
 			},
 			"advanced" : {
-				"description" : "{Gift}\r\n\r\nYou cannot see this description."
+				"description" : "{Advanced Gift}\r\n\r\nThe party never stops: after every strike, the Jester detonates a birthday cake that even fire- and magic-immune creatures are compelled to accept."
 			},
 			"expert" : {
-				"description" : "{Gift}\r\n\r\nYou cannot see this description."
+				"description" : "{Expert Gift}\r\n\r\nA gift for everyone: the blast spares nobody standing near the victim, ignoring every spell immunity. Candles included."
 			}
 		}
 	}
