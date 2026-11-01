@@ -82,7 +82,7 @@
 			},
 			"expert" : {
 				"description" : "{Expert Terror Eye}\r\n\r\nThe stare reaches across the whole battlefield, gripping the victim with terror until it forgets how to retaliate. Undead, machines and the mindless meet it with empty eyes.",
-			
+
 				"range" : "X"
 			}
 		}
